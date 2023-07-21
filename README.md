@@ -39,6 +39,8 @@ instalação .exe (recomendado)
 
 ⏳ - em andamento
 
+💤 - Recurso temporariamente pausado
+
 ⚠️ - Recurso quebrado ou com problemas.
 
 ❌ - Recurso Descontinuado.
@@ -58,13 +60,15 @@ lancamento no github ✅
 **ESTAGIO 1 :**
 
 
-finalização da base do programa de auto-farma ⏳⚠️
+finalização da base do programa de auto-farm 💤
 
 criar um executor em .exe para o programa ✅
 
 coletar ideias ⏳
 
 otimizar codigo ⏳
+
+criação de uma GUI ⏳
 
 **ESTAGIO 2 :**
 
@@ -127,13 +131,15 @@ release on github ✅
 **STAGE 1:**
 
 
-completion of the self-farm program base ⏳⚠️
+completion of the self-farm program base 💤
 
 create an .exe executor for the program ✅
 
 collect ideas ⏳
 
 optimize code ⏳
+
+creation of a gui ⏳
 
 **STAGE 2:**
 
