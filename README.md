@@ -3,6 +3,8 @@ Versão atual : v0.0.3
 
 Warning : To see the description in English scroll down
 
+tutorial event farm : https://youtu.be/qeL05OZZFHo
+
 ## PT-BR
 
 Um simples projeto de automação do jogo Pet simulator X (https://www.roblox.com/games/6284583030/PET-SIMULATOR-X) que não depende de executores ou exploits do roblox,  como sou um programador novato não espere muita coisa ou recursos fantasticos, estarei sempre atualizando esse projeto com novos recursos e otimizações, abaixo vão encontrar um tutorial e um pequeno planejamento que tenho para esse projeto (se gostar lembre-se de me dar um estrela :) )
