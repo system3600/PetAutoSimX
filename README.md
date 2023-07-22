@@ -1,5 +1,5 @@
 # PetAutoSimX
-Versão atual : v0.0.2
+Versão atual : v0.0.3
 
 Warning : To see the description in English scroll down
 
@@ -66,7 +66,7 @@ criação de um auto click para ajudar no farm ✅
 
 criar um executor em .exe para o programa ✅
 
-coletar ideias ⏳
+coletar ideias ✅
 
 otimizar codigo ✅
 
@@ -74,11 +74,18 @@ criação de uma GUI ✅
 
 **ESTAGIO 2 :**
 
+melhorar GUI ✅
 
-EM BREVE !!!
+adicionar função de farm de eventos ✅
+
+corrigir pequenos erros e otimizar codigo ✅
+
+**ESTAGIO 3**
+
+-EM BREVE
 
 ## EN
-Current version : v0.0.2
+Current version : v0.0.3
 
 A simple Pet simulator X (https://www.roblox.com/games/6284583030/PET-SIMULATOR-X) automation project that doesn't depend on roblox executors or exploits, as I'm a newbie programmer don't expect much or fantastic features, I'll always be updating this project with new features and optimizations, below you'll find a tutorial and a little plan I have for this project (if you like it, remember to give me a star :) )
 
@@ -137,7 +144,7 @@ finalization of the base of the auto-farm program ❌ (discontinued due to limit
 
 creation of an auto click to help in the farm ✅
 
-collect ideas ⏳
+collect ideas ✅
 
 optimize code ✅
 
@@ -145,5 +152,12 @@ creation of a gui ✅
 
 **STAGE 2:**
 
+improve GUI ✅
+
+add event farm function ✅
+
+fix small bugs and optimize code ✅
+
+**STAGE 3**
 
 SHORTLY !!!
