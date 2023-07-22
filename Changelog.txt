@@ -1,3 +1,17 @@
+changelog v0.0.3
+
+PT-BR
+
+- Adicionado nova função inedita de farm de evento !! (valida para o novo evento do pet simulator da data 22/07/2023)
+- gui atualizada com nova função.
+- codigo auxiliar principal otimizado.
+
+EN
+
+- Added new unreleased event farm function !! (valid for the new pet simulator event on 07/22/2023)
+- updated gui with new function.
+- Optimized main helper code.
+
 Changelog V0.0.2
 
 PT - BR 
