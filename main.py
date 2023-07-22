@@ -4,7 +4,7 @@ from termcolor import *
 import time
 # opencv-python
 
-cprint(' ===== PetAutoSimX Beta 0.0.1 =====', 'green')
+cprint(' ===== PetAutoSimX =====', 'green')
 print('Para conseguir atualizações visite: https://github.com/system3600/PetAutoSimX/edit/main/README.md')
 print('To get updates visit: https://github.com/system3600/PetAutoSimX/edit/main/README.md\n ')
 time.sleep(1)
