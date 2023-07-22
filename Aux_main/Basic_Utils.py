@@ -12,6 +12,9 @@ def click(x, y):
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0,0)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0,0)
 
+def clickun():
+    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0,0)
+    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0,0)
 
 # função locate() não implementada / function locate() not implemented
 def locate(img):
@@ -34,8 +37,9 @@ def auto_egg():
         press_key(key)
         click(821, 669)
         wait(2)
+        print('auto egg running')
 
-def afk():
+def anti_afk():
     wait(5)
     while keyboard.is_pressed('q') == False:
         key1 = 0x57
@@ -44,17 +48,11 @@ def afk():
         wait(1)
         press_key(key2)
         wait(1)
+        print('anti afk running')
 
-def auto_farm():
-    try:
-        img = 'test.png'
-        find = locate(img)
-        if find:
-            x, y = find
-        click(x, y)
-
-        if find == False:
-            print('Alvo não encontrado / target not found')
-
-    except:
-        print('Algo deu errado ao tentar localizar o alvo / Something went wrong while trying to locate the target ')
+def auto_click(t):
+    wait(5)
+    while keyboard.is_pressed('q') == False:
+        wait(t)
+        clickun()
+        print('auto click running.')
