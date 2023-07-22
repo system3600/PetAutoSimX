@@ -1,0 +1,19 @@
+Changelog V0.0.2
+
+PT - BR 
+
+- Removido todo o codigo do auto-farm (recurso descontinuado)
+- adicionado a opção de ativar a GUI
+- codigo principal otimizado e melhorado
+- auto click adicionado
+- pequenas correções
+- about atualizado
+
+EN
+
+- Removed all auto-farm code (deprecated feature)
+- added GUI option
+- optimized and improved core code
+- auto click added
+- small fixes
+- about updated
