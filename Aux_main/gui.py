@@ -16,8 +16,8 @@ def auto_click_gui():
     ut.auto_click(t)
 
 def about():
-    print('Versão atual: Beta 0.0.2\nBuild: Publica\n data de lançamento: 21/07/2023')
-    cprint('Feitor por : EXNOP#1293', 'light_magenta')
+    print('Versão atual: 0.0.2\nBuild: Publica\ndata de lançamento: 21/07/2023')
+    cprint('Feito por : EXNOP#1293', 'light_magenta')
 
 def sair():
     root = tk.Tk()
