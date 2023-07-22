@@ -15,8 +15,12 @@ def auto_click_gui():
     t = 1.5
     ut.auto_click(t)
 
+def event_farm():
+    print('Event Farm ativado!')
+    ut.event_farm()
+
 def about():
-    print('Versão atual: 0.0.2\nBuild: Publica\ndata de lançamento: 21/07/2023')
+    print('Versão atual:0.0.3\nBuild: Publica\ndata de lançamento: 22/07/2023')
     cprint('Feito por : EXNOP#1293', 'light_magenta')
 
 def sair():
@@ -37,6 +41,7 @@ def interface():
     auto_egg_image = tk.PhotoImage(file="C:\\Users\\Administrator\\PycharmProjects\\AutoPetSimX\\Images\\AUTO EGG OPEN.png")
     anti_afk_image = tk.PhotoImage(file="C:\\Users\\Administrator\\PycharmProjects\\AutoPetSimX\\Images\\Anti Afk.png")
     auto_click_image = tk.PhotoImage(file="C:\\Users\\Administrator\\PycharmProjects\\AutoPetSimX\\Images\\auto click.png")
+    event_farm_image = tk.PhotoImage(file="C:\\Users\\Administrator\\PycharmProjects\\AutoPetSimX\\Images\\Event Farm.png")
     about_image = tk.PhotoImage(file="C:\\Users\\Administrator\\PycharmProjects\\AutoPetSimX\\Images\\ABOUT.png")
     exit_image = tk.PhotoImage(file="C:\\Users\\Administrator\\PycharmProjects\\AutoPetSimX\\Images\\EXIT.png")
     comandos_image = tk.PhotoImage(file=("C:\\Users\\Administrator\\PycharmProjects\\AutoPetSimX\\Images\\comandos.png"))
@@ -52,6 +57,9 @@ def interface():
 
     auto_click_button = tk.Button(root, image=auto_click_image, command=auto_click_gui)
     auto_click_button.grid(row=1, column=5, pady=5)
+
+    event_farm_button = tk.Button(root, image=event_farm_image, command=event_farm)
+    event_farm_button.grid(row=2, column=3, pady=5)
 
     about_button = tk.Button(root, image=about_image, command=about)
     about_button.grid(row=2, column=0, pady=5)
