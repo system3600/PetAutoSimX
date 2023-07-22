@@ -22,11 +22,35 @@ def locate(img):
 
 def press_key(tecla):
     win32api.keybd_event(tecla, 0, 0, 0)
-    time.sleep(0.1)  # Tempo de espera (em segundos)
+    time.sleep(0.1)
     win32api.keybd_event(tecla, 0, win32con.KEYEVENTF_KEYUP, 0)
 
 def wait(w):
     time.sleep(w)
+
+def press_key1(key):
+    win32api.keybd_event(key, 0, 0, 0)
+
+def release_key1(key):
+    win32api.keybd_event(key, 0, win32con.KEYEVENTF_KEYUP, 0)
+
+def keys(key1, key2, key3, key4):
+    press_key1(key1)
+    wait(5.5)
+    release_key1(key1)
+
+    press_key1(key2)
+    wait(4.5)
+    release_key1(key2)
+
+    press_key1(key3)
+    wait(5.5)
+    release_key1(key3)
+
+    press_key1(key4)
+    wait(4.5)
+    release_key1(key4)
+
 
 # Funções principais / main functions
 
@@ -56,3 +80,14 @@ def auto_click(t):
         wait(t)
         clickun()
         print('auto click running.')
+
+def event_farm():
+    wait(5)
+    keyap = 0x41
+    keydp = 0x44
+    keysp = 0x53
+    keywp = 0x57
+    while keyboard.is_pressed('q') == False:
+        keys(keywp, keyap, keysp, keydp)
+        wait(0.5)
+        print('Event farm running..')
