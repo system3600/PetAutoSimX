@@ -31,8 +31,8 @@ def main():
                 t = float(input('especifique o tempo entre os clicks\n> '))
                 Basic_Utils.auto_click(t)
             if opr == 4:
-                print('Versão atual: Beta 0.0.2\nBuild: Publica\ndata de lançamento: 21/07/2023')
-                cprint('Feitor por : EXNOP#1293', 'light_magenta')
+                print('Versão atual: 0.0.2\nBuild: Publica\ndata de lançamento: 21/07/2023')
+                cprint('Feito por : EXNOP#1293', 'light_magenta')
                 time.sleep(4)
                 main()
             if opr == 5:
@@ -52,7 +52,7 @@ def main():
                 t = float(input('specify time between clicks\n> '))
                 Basic_Utils.auto_click(t)
             if opr == 4:
-                print('Current version: Beta 0.0.2\nBuild: Publica\n launch date: 21/07/2023')
+                print('Current version: 0.0.2\nBuild: Publica\nlaunch date: 21/07/2023')
                 cprint('made by : EXNOP#1293', 'light_magenta')
                 time.sleep(4)
                 main()
