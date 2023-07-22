@@ -11,21 +11,21 @@ time.sleep(1)
 
 def main():
     lang = int(input('selecione a linguagem do programa / select program language \n1)BR\n2)EN\n> '))
-    mode = int(input('Ativar GUI ? / activate GUI ? \n1)sim/yes \n2)não/no'))
+    mode = int(input('Ativar GUI ? / activate GUI ? \n1)sim/yes \n2)não/no\n> '))
 
     if mode == 1:
         gui.interface()
     if mode == 2:
         if lang == 1:
             print('A linguagem atual é : PT-BR')
-            opr = int(input('Selecione a operação \n1)auto egg open \n2)afk \n3)auto click \n4)Sobre \n5)Sair\n> '))
+            opr = int(input('Selecione a operação \n1)auto egg open \n2)anti-afk \n3)auto click \n4)Sobre \n5)Sair\n> '))
             if opr == 1:
                 cprint('AVISO : para funcionar corretamente o roblox precisa estar ABERTO', 'light_red')
                 print('Para parar o auto egg pressione q ')
                 Basic_Utils.auto_egg()
             if opr == 2:
                 cprint('AVISO : para funcionar corretamente o roblox precisa estar ABERTO', 'light_red')
-                print('Para parar o afk pressione q ')
+                print('Para parar o anti-afk pressione q ')
                 Basic_Utils.anti_afk()
             if opr == 3:
                 t = float(input('especifique o tempo entre os clicks\n> '))
@@ -33,7 +33,7 @@ def main():
             if opr == 4:
                 print('Versão atual: 0.0.2\nBuild: Publica\ndata de lançamento: 21/07/2023')
                 cprint('Feito por : EXNOP#1293', 'light_magenta')
-                time.sleep(4)
+                time.sleep(2)
                 main()
             if opr == 5:
                 print('Saindo do programa :)')
@@ -46,7 +46,7 @@ def main():
                 Basic_Utils.auto_egg()
             if opr == 2:
                 cprint('ATTENTION: to work correctly roblox needs to be OPEN', 'light_red')
-                print('to stop afk press q ')
+                print('to stop anti-afk press q ')
                 Basic_Utils.anti_afk()
             if opr == 3:
                 t = float(input('specify time between clicks\n> '))
@@ -54,7 +54,7 @@ def main():
             if opr == 4:
                 print('Current version: 0.0.2\nBuild: Publica\nlaunch date: 21/07/2023')
                 cprint('made by : EXNOP#1293', 'light_magenta')
-                time.sleep(4)
+                time.sleep(2)
                 main()
             if opr == 5:
                 print('Exiting')
