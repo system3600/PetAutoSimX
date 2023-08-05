@@ -20,7 +20,7 @@ def event_farm():
     ut.event_farm()
 
 def about():
-    print('Versão atual:0.0.3\nBuild: Publica\ndata de lançamento: 22/07/2023')
+    print('Versão atual:0.0.4\nBuild: Publica\ndata de lançamento: 22/07/2023')
     cprint('Feito por : EXNOP#1293', 'light_magenta')
 
 def sair():
