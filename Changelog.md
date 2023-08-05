@@ -1,4 +1,18 @@
-changelog v0.0.3
+## changelog v0.0.4
+
+PT-BR
+
+- atualizado para ultima versão que será lançada
+- versão do BAF adicionada
+- readme atualizado
+
+EN
+
+- updated to the latest version that will be released
+- BAF version added
+- updated readme
+
+## changelog v0.0.3
 
 PT-BR
 
@@ -12,7 +26,7 @@ EN
 - updated gui with new function.
 - Optimized main helper code.
 
-Changelog V0.0.2
+## Changelog V0.0.2
 
 PT - BR 
 
