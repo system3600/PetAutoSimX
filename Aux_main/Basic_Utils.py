@@ -1,3 +1,8 @@
+# B.A.F (Basic Automation Framework) - framework de automação basica feita por exnop
+# Versão do BAF utilizada no programa: 1.1 / versão do BAF mais recente 1.2
+# para conseguir mais informações e atualizações do BAF me adicione no discord: exnop
+
+
 # Utilidades basicas de automação
 
 import pyautogui
@@ -15,10 +20,6 @@ def click(x, y):
 def clickun():
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0,0)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0,0)
-
-# função locate() não implementada / function locate() not implemented
-def locate(img):
-    pyautogui.locateOnScreen(img, confidence=0.6)
 
 def press_key(tecla):
     win32api.keybd_event(tecla, 0, 0, 0)
