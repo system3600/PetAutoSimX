@@ -33,7 +33,7 @@ def main():
             if opr == 4:
                 Basic_Utils.event_farm()
             if opr == 5:
-                print('Versão atual: 0.0.3\nBuild: Publica\ndata de lançamento: 22/07/2023')
+                print('Versão atual: 0.0.4\nBuild: Publica\ndata de lançamento: 22/07/2023')
                 cprint('Feito por : EXNOP#1293', 'light_magenta')
                 time.sleep(2)
                 main()
@@ -56,7 +56,7 @@ def main():
             if opr == 4:
                 Basic_Utils.event_farm()
             if opr == 5:
-                print('Current version: 0.0.3\nBuild: Publica\nlaunch date: 22/07/2023')
+                print('Current version: 0.0.4\nBuild: Publica\nlaunch date: 22/07/2023')
                 cprint('made by : EXNOP#1293', 'light_magenta')
                 time.sleep(2)
                 main()
