@@ -1,9 +1,14 @@
 # PetAutoSimX
-Versão atual : v0.0.3
+Versão atual : v0.0.4
 
 Warning : To see the description in English scroll down
 
 tutorial event farm : https://youtu.be/qeL05OZZFHo
+
+# PROJETO DESCONTINUADO
+## infelizmente fui banido do petsimulator X e não pude mais testar o programa, então considerem essa atualização como a ultima :(, porém estou fazendoo um novo projeto que tem a finalidade de automatizar qualquer jogo no estilo tycoon do roblox, então de uma olhada e se possivel acompanhe meu novo projeto :)
+
+link : 
 
 ## PT-BR
 
@@ -84,10 +89,15 @@ corrigir pequenos erros e otimizar codigo ✅
 
 **ESTAGIO 3**
 
--EM BREVE
+Projeto descontinuado.
 
 ## EN
-Current version : v0.0.3
+Current version : v0.0.4
+
+# PROJECT DISCONTINUED
+## unfortunately I was banned from petsimulator X and I couldn't test the program anymore, so consider this update as the last one :(, however I'm doing a new project that aims to automate any game in roblox tycoon style, so take a look and if possible follow my new project :)
+
+link: 
 
 A simple Pet simulator X (https://www.roblox.com/games/6284583030/PET-SIMULATOR-X) automation project that doesn't depend on roblox executors or exploits, as I'm a newbie programmer don't expect much or fantastic features, I'll always be updating this project with new features and optimizations, below you'll find a tutorial and a little plan I have for this project (if you like it, remember to give me a star :) )
 
@@ -162,4 +172,4 @@ fix small bugs and optimize code ✅
 
 **STAGE 3**
 
-SHORTLY !!!
+discontinued
