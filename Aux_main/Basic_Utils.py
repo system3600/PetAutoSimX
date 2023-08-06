@@ -1,5 +1,5 @@
 # B.A.F (Basic Automation Framework) - framework de automação basica feita por exnop
-# Versão do BAF utilizada no programa: 1.1 / versão do BAF mais recente 1.2
+# Versão do BAF utilizada no programa: 1.1 (devido a descontinuação do projeto o BAF não será mais atualizado e nem novas funções serão adicionadas)
 # para conseguir mais informações e atualizações do BAF me adicione no discord: exnop
 
 
